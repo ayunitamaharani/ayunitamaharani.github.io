@@ -1,61 +1,48 @@
-# Ayunita Maharani - Project Portfolio
+# Ayunita Maharani — Data Science Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+Personal portfolio site, live at **https://ayunitamaharani.github.io**
 
-## About This Portfolio Template
+Statistics undergraduate at Universitas Diponegoro — spatial machine learning, forecasting, and dashboards in Python, R and SQL.
 
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+## What's in this repo
 
-## 🚀 Projects
+| Path | Purpose |
+| --- | --- |
+| `index.html` | The whole site — one self-contained page (inline styles, no build step) |
+| `assets/ayunita-portrait.jpg` | Profile photo used in the hero |
+| `assets/CV-Ayunita-Maharani.pdf` | CV linked from the navigation bar |
+| `icon.png` | Favicon |
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+## Sections
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+- **Hero** — introduction, links, CV download
+- **About** — background, focus, what I'm looking for
+- **Experience** — Coding Camp 2026 (DBS Foundation × Dicoding), BRIN internship, Young On Top Semarang
+- **Projects** — SkinSense, Segara Anakan land cover, flood probability model, plus dashboards and reports
+- **Skills** — programming, data and statistics tooling, visualisation, methods
+- **Certificates** — Coding Camp Data Science cohort (10 Dicoding courses), MySkill, Young On Top
+- **Contact** — form that opens your email client, prefilled
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+## Featured projects
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+**SkinSense — AI skin disease detection**
+EfficientNet classifier over 48,162 images in 15 disease classes, delivered as a Streamlit product and validated with A/B testing.
+[Live demo](https://skindiseases-capstone-project.streamlit.app/) · [Repo](https://github.com/Project-SkinSense-Detection)
 
+**Segara Anakan land cover classification (BRIN)**
+Fuzzy C-Means clustering and Random Forest over Landsat-5 and Sentinel-2 imagery, with NDVI and Moran's I spatial autocorrelation in R.
+[Live dashboard](https://app-ndvi-segara-anakan.streamlit.app/) · [Repo](https://github.com/ayunitamaharani/streamlit-ndvi-segara-anakan)
 
-## 🛠️ Skills
+**Flood probability prediction**
+Random Forest, XGBoost and LightGBM compared, with feature engineering and evaluation documented.
+[Report](https://drive.google.com/file/d/1B_FxI6RIL0zfeffB8b4QpwSHGRUiATun/view)
 
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
+## Editing the site
 
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
+Everything lives in `index.html`. Text is plain HTML — search for the sentence you want to change and edit it in place. To swap the photo, replace `assets/ayunita-portrait.jpg` with a portrait image (4:5 works best). To update the CV, replace `assets/CV-Ayunita-Maharani.pdf` keeping the same filename.
 
-## 💡 How to Use This Template
+Design: Bricolage Grotesque + Instrument Serif + Fredoka, on a broken-white, soft pink, teal and espresso palette with polkadot panels.
 
-Creating your own portfolio from this template is a simple, four-step process.
+## Contact
 
-### 1. Create a New Repository from this Template
-Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
-
-### 2. Name Your Repository for GitHub Pages
-This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
-
-### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
-
-### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
-- Create your favicon and add it to the root folder.
-
-Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+ayunitamaharanipq@gmail.com · [LinkedIn](https://www.linkedin.com/in/ayunitamaharani/) · [GitHub](https://github.com/ayunitamaharani)

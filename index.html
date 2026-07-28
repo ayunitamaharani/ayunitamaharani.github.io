@@ -26,10 +26,10 @@ html,body{overflow-x:hidden;max-width:100%}
 [data-reveal]{opacity:1 !important;transform:none !important;filter:none !important}
 html[data-js] [data-reveal]{opacity:0 !important}
 html[data-js] [data-reveal][data-shown]{opacity:1 !important}
-#top{align-items:center}
-#top img{max-height:60vh;width:auto;margin:0 auto}
-@media (max-width:1100px){ #top > div:first-child{padding:64px 32px 60px 40px !important} #top > div:last-child{padding:32px !important} }
-@media (max-height:860px){ #top > div:first-child{padding-top:60px !important;padding-bottom:56px !important} #top img{max-height:52vh} }
+#top{align-items:center;min-height:calc(100dvh - 128px)}
+#top img{max-height:calc(100dvh - 260px);width:auto;margin:0 auto}
+@media (max-width:1100px){ #top > div:first-child{padding:48px 32px 44px 40px !important} #top > div:last-child{padding:28px !important} }
+@media (max-width:760px){ #top{min-height:0} #top img{max-height:none} }
 
 @media (max-width: 760px){
   section, #top { padding-left:24px !important; padding-right:24px !important }
@@ -66,7 +66,7 @@ html[data-js] [data-reveal][data-shown]{opacity:1 !important}
 </div>
 
 <section id="top" style="display:grid;grid-template-columns:1.05fr .95fr;align-items:stretch">
-  <div style="padding:84px 56px 80px 64px;display:flex;flex-direction:column;justify-content:center">
+  <div style="padding:56px 56px 56px 64px;display:flex;flex-direction:column;justify-content:center">
     <h1 data-reveal="" style="margin:0;font:700 clamp(52px,5.4vw,78px)/.9 'Bricolage Grotesque',sans-serif;letter-spacing:-.055em;text-wrap:balance;opacity:0;transform:translateY(30px);filter:blur(8px);transition:opacity .9s cubic-bezier(.32,.72,0,1),transform .9s cubic-bezier(.32,.72,0,1),filter .9s cubic-bezier(.32,.72,0,1)">Curious<br>about <span style="color:#2E6F6A">every</span><br>data point.</h1>
     <p data-reveal="" style="margin:20px 0 0;max-width:440px;font:300 16px/1.7 'Plus Jakarta Sans',sans-serif;color:rgba(58,35,24,.74);text-wrap:pretty;opacity:0;transform:translateY(26px);filter:blur(6px);transition:all .9s cubic-bezier(.32,.72,0,1);transition-delay:.12s">Statistics undergraduate at Universitas Diponegoro. Python, R and SQL — spatial machine learning, forecasting, and dashboards that make a decision obvious.</p>
     <div data-reveal="" style="display:flex;align-items:center;gap:16px;margin-top:26px;flex-wrap:wrap;opacity:0;transform:translateY(22px);transition:all .9s cubic-bezier(.32,.72,0,1);transition-delay:.22s">

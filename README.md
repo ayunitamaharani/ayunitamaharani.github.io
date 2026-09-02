@@ -2,13 +2,13 @@
 
 Personal portfolio site, live at **https://ayunitamaharani.github.io**
 
-Statistics undergraduate at Universitas Diponegoro — spatial machine learning, forecasting, and dashboards in Python, R and SQL.
+Statistics undergraduate at Universitas Diponegoro skilled in spatial machine learning, forecasting, and dashboards in Python, R and SQL.
 
 ## What's in this repo
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | The whole site — one self-contained page (inline styles, no build step) |
+| `index.html` | The whole site one self-contained page (inline styles, no build step) |
 | `assets/ayunita-portrait.jpg` | Profile photo used in the hero |
 | `assets/CV-Ayunita-Maharani.pdf` | CV linked from the navigation bar |
 | `icon.png` | Favicon |
@@ -25,7 +25,7 @@ Statistics undergraduate at Universitas Diponegoro — spatial machine learning,
 
 ## Featured projects
 
-**SkinSense — AI skin disease detection**
+**SkinSense: AI skin disease detection**
 EfficientNet classifier over 48,162 images in 15 disease classes, delivered as a Streamlit product and validated with A/B testing.
 [Live demo](https://skindiseases-capstone-project.streamlit.app/) · [Repo](https://github.com/Project-SkinSense-Detection)
 
@@ -39,7 +39,7 @@ Random Forest, XGBoost and LightGBM compared, with feature engineering and evalu
 
 ## Editing the site
 
-Everything lives in `index.html`. Text is plain HTML — search for the sentence you want to change and edit it in place. To swap the photo, replace `assets/ayunita-portrait.jpg` with a portrait image (4:5 works best). To update the CV, replace `assets/CV-Ayunita-Maharani.pdf` keeping the same filename.
+Everything lives in `index.html`. Text is plain HTML search for the sentence you want to change and edit it in place. To swap the photo, replace `assets/ayunita-portrait.jpg` with a portrait image (4:5 works best). To update the CV, replace `assets/CV-Ayunita-Maharani.pdf` keeping the same filename.
 
 Design: Bricolage Grotesque + Instrument Serif + Fredoka, on a broken-white, soft pink, teal and espresso palette with polkadot panels.
 

@@ -1,4 +1,4 @@
-# Ayunita Maharani — Data Science Portfolio
+# Data Science Portfolio
 
 Personal portfolio site, live at **https://ayunitamaharani.github.io**
 
